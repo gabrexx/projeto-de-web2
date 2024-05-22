@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: auto;
+    background: #7583A4;
+    padding-inline: 48px;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 80px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 100px;
+    max-width: 90px;
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.nav-list a {
+    font-size: 17px;
+    color: black;
+    padding-block: 16px;
+}
+
+.hero{
+    height: calc(100vh - 70px); 
+    background-color: center / cover no-repeat;
+}
